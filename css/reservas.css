@@ -95,17 +95,18 @@ a:hover {
 }
 main{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     min-height: 30vh;
     width: 100vw;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
 }
 
 .text{
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 60vw;
+    margin: 10px;
     font-size: 2vh;
     color: rgb(255, 255, 255);
     font-family: 'Raleway', sans-serif;
@@ -160,17 +161,17 @@ button {
     font-family: 'Raleway', sans-serif ;
     font-weight: bolder;
     font-size: 20px;
-    transition: 0.7s;
+    transition: 0.7s; 
 }
 
 button:hover {
     background-color: #d689d6;
 }
-
 footer {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
     font-family: 'Raleway', sans-serif;
     font-weight: normal;
     background-color: #3e3d3d95;
@@ -179,6 +180,12 @@ footer {
 }
 
 footer a{
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Raleway', sans-serif;
     text-decoration: underline;
     color: wheat;
+    padding: 20px;
+   
 }
+
